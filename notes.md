@@ -52,3 +52,53 @@ You can find the video here: [AI Reading List (by Ilya Sutskever) - Part 1](http
 
 --------
 
+This video, "AI Reading List (by Ilya Sutskever) - Part 2," continues the discussion of the recommended AI reading list from the former OpenAI Chief Scientist \[[00:00](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=0)\]. It covers six additional, primarily classic, research papers.
+
+Here is the transcript reorganized into key points:
+
+### **AI Reading List Items (Part 2)**
+
+1.  **"Keeping Neural Networks Simple by Minimizing the Description Length of the Weights" (1993)**
+    
+    *   **Core Idea:** Supervised neural networks generalize well if there is much less information in the weights than there is in the output vectors \[[00:36](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=36)\].
+        
+    *   **Algorithm:** The paper proposes an algorithm that penalizes the amount of information contained in the weights by adding a learnable amount of Gaussian noise to the weights during training \[[00:43](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=43)\].
+        
+2.  **Pointer Networks (2017)**
+    
+    *   **Concept:** A variation of the attention model \[[01:04](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=64)\].
+        
+    *   **Mechanism:** Unlike traditional attention, the attention weights are **not** used to calculate a context vector \[[01:04](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=64)\].
+        
+    *   **Output:** Instead, the input time step with the **highest weight** is considered the direct output for the decoder time step, essentially having the output "point" to the most relevant input token \[[01:10](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=70)\].
+        
+3.  **"ImageNet Classification with Deep Convolutional Neural Networks" (AlexNet)**
+    
+    *   **Significance:** This paper involved training large, deep Convolutional Neural Networks (CNNs) on the ImageNet dataset, a controversial topic at the time \[[01:54](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=114)\].
+        
+    *   **Impact:** The model won the ImageNet competition by a large margin \[[02:02](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=122)\]. Its success shifted the focus in AI from extensive feature engineering and small models to training deep neural networks, thus pioneering the deep learning field \[[02:09](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=129)\].
+        
+4.  **"Order Matters: Sequence to Sequence for Sets"**
+    
+    *   **Key Finding:** Shows that the way input and output data is organized matters significantly when training Recurrent Neural Networks (RNNs) for sequence-to-sequence tasks \[[02:42](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=162)\].
+        
+    *   **Proposals:** The authors discuss extending the sequence-to-sequence framework to handle input sets and propose a loss function to deal with the lack of structure in the output sets \[[02:57](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=177)\].
+        
+5.  **"GSPMD: Easy Scaling with Micro-Batch Pipeline Parallelism"**
+    
+    *   **Introduction:** This paper introduces GSPMD, a pipeline parallelism library developed by Google \[[03:17](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=197)\].
+        
+    *   **Functionality:** It enables users to split a large neural network into smaller segments called _stages_ and process them in parallel across multiple devices (GPUs or TPUs) \[[03:25](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=205)\].
+        
+    *   **Mechanism:** Each stage computes a portion of the network, and its outputs are passed as inputs to the next stage, which greatly accelerates the computation of large models \[[03:33](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=213)\].
+        
+6.  **"Deep Residual Learning for Image Recognition" (ResNet)**
+    
+    *   **Contribution:** Introduces the **residual block** \[[04:10](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=250)\].
+        
+    *   **Significance:** Before this paper, the research community struggled to build deeper neural networks without a loss in performance \[[04:18](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=258)\].
+        
+    *   **Impact:** The residual block solved this problem, greatly improving deep neural networks and pioneering the deep learning field \[[04:32](http://www.youtube.com/watch?v=GxjEjy5UYJU&t=272)\].
+        
+
+You can find the video here: [AI Reading List (by Ilya Sutskever) - Part 2](https://www.youtube.com/watch?v=GxjEjy5UYJU)
