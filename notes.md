@@ -102,3 +102,54 @@ Here is the transcript reorganized into key points:
         
 
 You can find the video here: [AI Reading List (by Ilya Sutskever) - Part 2](https://www.youtube.com/watch?v=GxjEjy5UYJU)
+=========
+"AI Reading List (by Ilya Sutskever) - Part 3," discusses the next five items in the suggested AI reading list, continuing the series on fundamental papers in the field \[[00:00](http://www.youtube.com/watch?v=asfrjLAyd2g&t=0)\].
+
+Here is the transcript reorganized into key points:
+
+### **AI Reading List Items (Part 3)**
+
+1.  **"Multiscale Context Aggregation by Dilated Convolutions" (2015)**
+    
+    *   **Problem Addressed:** Dense prediction problems (like semantic segmentation) relied too heavily on Convolutional Neural Networks (CNNs) designed for image classification \[[00:30](http://www.youtube.com/watch?v=asfrjLAyd2g&t=30)\].
+        
+    *   **Innovation:** Introduced the **dilated convolution** layer \[[00:47](http://www.youtube.com/watch?v=asfrjLAyd2g&t=47)\].
+        
+    *   **Benefit:** Allows for a faster expansion of the CNN's receptive field without losing resolution or coverage \[[00:47](http://www.youtube.com/watch?v=asfrjLAyd2g&t=47)\].
+        
+    *   **Impact:** Dilated convolutions have become popular and are now implemented in most major frameworks \[[00:56](http://www.youtube.com/watch?v=asfrjLAyd2g&t=56)\].
+        
+2.  **Paper on Message Passing Neural Networks (MPNNs)**
+    
+    *   **Goal:** To predict the quantum properties of an organic molecule \[[01:16](http://www.youtube.com/watch?v=asfrjLAyd2g&t=76)\].
+        
+    *   **Method:** Proposes a Message Passing Neural Network that models a Density Functional Theory (DFT) calculation, a computationally expensive process in quantum physics \[[01:24](http://www.youtube.com/watch?v=asfrjLAyd2g&t=84)\].
+        
+3.  **"Attention Is All You Need"**
+    
+    *   **Context:** The common approach for sequence-to-sequence problems (like machine translation) was to use Recurrent Neural Network (RNN) encoders and decoders \[[01:44](http://www.youtube.com/watch?v=asfrjLAyd2g&t=104)\].
+        
+    *   **Innovation:** Proposed to **drop the recurrent connections entirely** and use **only the self-attention mechanism** \[[02:12](http://www.youtube.com/watch?v=asfrjLAyd2g&t=132)\].
+        
+    *   **Benefit:** This change greatly enhanced the computational parallelism and scalability of the model \[[02:25](http://www.youtube.com/watch?v=asfrjLAyd2g&t=145)\].
+        
+    *   **Significance:** The attention mechanism introduced by this paper is now central to all modern AI models (like the Transformer architecture) \[[02:33](http://www.youtube.com/watch?v=asfrjLAyd2g&t=153)\].
+        
+4.  **"Neural Machine Translation by Jointly Learning to Align and Translate"**
+    
+    *   **Context:** This is the paper that introduced the attention mechanism to Recurrent Neural Networks \[[02:45](http://www.youtube.com/watch?v=asfrjLAyd2g&t=165)\].
+        
+    *   **Focus:** It demonstrated how to add an attention layer to the existing encoder-decoder architecture for sequence-to-sequence tasks \[[02:52](http://www.youtube.com/watch?v=asfrjLAyd2g&t=172)\].
+        
+5.  **"Identity Mappings in Deep Residual Networks"**
+    
+    *   **Context:** The author of the original Residual Block (ResNet) explores extremely deep models with up to a thousand layers \[[03:20](http://www.youtube.com/watch?v=asfrjLAyd2g&t=200)\].
+        
+    *   **Argument:** The paper argues that the original stacking of layers in the residual block is **not optimal** \[[03:28](http://www.youtube.com/watch?v=asfrjLAyd2g&t=208)\].
+        
+    *   **Proposed Optimal Structure:** It suggests a revised order for stacking layers: Batch Norm -> ReLU -> Convolution, instead of the original order \[[03:49](http://www.youtube.com/watch?v=asfrjLAyd2g&t=229)\].
+        
+    *   **Impact:** This revised structure (often referred to as pre-activation) is believed to be the standard construction for residual connections today, as it achieves a lower loss on both training and testing compared to the original block \[[04:09](http://www.youtube.com/watch?v=asfrjLAyd2g&t=249)\].
+        
+
+You can find the video here: [AI Reading List (by Ilya Sutskever) - Part 3](https://www.youtube.com/watch?v=asfrjLAyd2g)
